@@ -1,63 +1,124 @@
-<!DOCTYPE html>
-<html lang="eu">
-   <head>
-    <title>Сьогодення</title>
- <meta charset="utf-8">
+<!DOCTYPE html> 
+<html lang="uk"> 
+<head>
+      <title>Автобіографія</title>
+      <meta charset="utf-8"> 
  <style>
-  h1 {
-            font-size: 24px;
-            text-align: center;
-          }
-  ul  li:nth-child(odd) {
-  background-color: gray;
-}
-ol :nth-child(3):hover{
-  background-color: gray;
-  cursor: pointer;
-}
-ol :nth-child(5):hover{
-  background-color: gray;
-  cursor: pointer;
-}
-ol :nth-child(4):hover{
-  background-color: green;
-}
-</style>
-   </head>
-  <body>
-    <a href="index.html" title="Назад на головну">Назад на головну</a>
-<h1>Сьогодення Боднара Ярослава Миколайовича </h1>
-<h1>Мій типовий список покупок</h1> 
-<ul>
-<li>Сіль </li> 
-<li>Цукор</li> 
-<li>Чай Lipton</li> 
-<li>Хліб</li> 
-<li>Ковбаса</li> 
-<li>Макарони</li> 
-<li>Чіпси Люкс</li> 
-<li>Олія</li> 
- <li>Молочні продукти:<ul>
-    <li>Молоко </li>
-    <li>Сир </li> 
-    <li>Сметана </li>
-    <li>Масло </li></ul>
-</li>    
-    <li>Овочі та фрукти:<ul>
-    <li>Яблука 3шт. </li> 
-    <li>Виноград </li> 
-    <li>Мандарини </li></ul>
-    <li>Помідори</li>
-    <li>Морква</li>
-</ul>
-<h1>Мій улюблений десерт "Тірамісу"</h1>
-<ol>
-<li>Приготування: <ol>
-<li>Спочатку робимо каву </li>
-<li>Збиваємо вершки разом із цукровою пудрою </li>
-<li>Додаємо маскарпоне </li>
-<li>Беремо одну велику форму або 5 порційних. Починаємо складати тірамісу.</li>
-<li>За допомогою сита рівномірно посипаємо тірамісу какао-порошком</li></ol>
- </body>  
-</html> 
+  header li{
+    list-style: none;
+    }
+  .try:visited{
+    background-color: orange;
+    border: 2px solid peru;
+    color: palegreen;
+  }
+  .try{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: salmon;
+    border: 2px solid sandybrown;
+    color: khaki;
+    }
+  .try:hover{
+    background-color: slategrey;
+    color: rgb(74, 99, 120);
 
+    }
+  .try:active{
+    background-color: sienna;
+    color: rgb(106, 145, 145);
+    border: 2px solid gray;
+    }
+    #Base{
+      background-color: darkslategrey;
+      color: rgb(102, 112, 122);
+    }
+    #Child{
+      background-color: darkorange;
+      color: cornsilk;
+    }
+    #School{
+      background-color: dimgray;
+      color: rgb(140, 140, 210);
+    }
+    #AfterSchool{
+      background-color: cornflowerblue;
+      color: brown;
+    }
+    #Uni{
+      background-color: blanchedalmond;
+      color: rgb(58, 58, 148);
+    }
+</style> 
+    </head> 
+     <body>
+
+<h1 id="Auto">Автобіографія Боднара Ярослава Миколайовича</h1>
+<p>
+<a href="index.html" title="Назад на головну">Назад на головну</a>
+</p>
+<h3 id="Zmist">Зміст</h3> 
+<header>
+<ol>
+  <li>
+<a class="try" href="#Base">Базова інформація</a>
+</li>
+<li>
+<a class="try" href="#Child">Дитинство</a>
+</li>
+<li>
+<a class="try" href="#School">Шкільні роки</a>
+</li>
+<li>
+<a class="try" href="#AfterSchool">Поза школою</a>
+</li>
+<li>
+<a class="try" href="#Uni">Університет</a>
+</li>
+</ol> 
+</header>
+<article> 
+  <h3 id="Base">Базова інформація</h3> 
+<p id="id1">
+    Мене звати Ярослав. Живу в місті Тисмениця.  
+  </p> 
+  <a href="#Zmist">Назад до змісту</a>
+</article> 
+
+    <article>
+      <h3 id="Child">Дитинство</h3>
+<p id="id2">
+    Народився 22 березня 2005 року в місті Тисмениця.Своє дитинство я проводив в місті Тисмениця. Я з своєю сімєю часто їхали на річку літом, ми бували там біля 2-3 разів на тиждень. Ще я проводив своє дитинство в селі Одаї. В селі є дуже багато ставків та озер, я мій батько і дудусь дуже любили рибаловолю.  
+ </p>
+ <a href="#Zmist">Назад до змісту</a>  
+</article>
+
+ <article>
+  <h3 id="School">Шкільні роки</h3>
+<p id="id3">
+    Мої шкільні роки були цікавими та захоплючими. Мою першу вчителку звати Наталя Степанівна. Вона дуже добра, весела та розумна вчителька. Якщо у когось в класі були проблеми в навчанні вона охоче всім допомагала. Ми з класом часто подорожували, у нас було дуже багато пригод які ми ніколи не забудемо. 
+</p>
+<a href="#Zmist">Назад до змісту</a> 
+</article>
+
+<article>
+  <h3 id="AfterSchool">Поза школою</h3> 
+<p id="id4">
+    За 11 років у школі в мене появилося дуже багато друзів. Ми кожного дня гуляли, ми їздили в кінотеатр, ходили один до одного в гості, ми весело проводили час. У вільний час ми з батьками їздили на природу. Ми жарили шашлики і ловили рибу.
+</p>
+<a href="#Zmist"> Назад до змісту</a>
+</article>
+
+<article>
+  <h3 id="Uni">Університет</h3>
+  <p id="id5">
+    Цього року я поступив в Прикарпатський національний університет імені Василя Стефаника. Я обрав спеціальність Компютерні науки. Ця спеціальність є дуже цікаво для мене, я люблю програмувати. 
+</p> 
+<a href="#Zmist"> Назад до змісту</a>
+</article>
+<hr>
+<p>
+<a href="#Auto">Вверх </a> 
+</p>
+</body>
+</html>
