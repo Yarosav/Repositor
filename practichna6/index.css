@@ -1,0 +1,84 @@
+#id_a:visited {
+    color: aqua;
+}
+
+#id_b:visited {
+    color: pink;
+}
+
+#id_c:visited {
+    color: orange;
+}
+
+#id_d:visited {
+    color: green;
+}
+
+#id_a:link {
+    color: black;
+}
+
+#id_b:link {
+    color: red;
+}
+
+#id_c:link {
+    color: purple;
+}
+
+#id_d:link {
+    color: yellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+}
+
+.item {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
+a {
+    font-size: 34px;
+    padding: 20px 0;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
