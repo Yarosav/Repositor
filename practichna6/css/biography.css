@@ -51,36 +51,36 @@ h1 {
   
   ul li a:hover {
     color: white;
-    background-color: magenta;
+    background-color: rgb(255, 119, 0);
   }
   
   ul li a:focus {
     color: black;
-    background-color: yellow;
+    background-color: rgb(115, 255, 0);
   }
   
   .bi {
-    background-color: black;
+    background-color: rgb(65, 58, 58);
     color: white;
   }
   
   .ch {
-    background-color: blueviolet;
+    background-color: rgb(65, 58, 58);
     color: white;
   }
   
   .sd {
-    background-color: aqua;
+    background-color: rgb(65, 58, 58);
     color: black;
   }
   
   .os {
-    background-color: hotpink;
+    background-color: rgb(65, 58, 58);
     color: black;
   }
   
   .uv {
-    background-color: chartreuse;
+    background-color: rgb(65, 58, 58);
     color: maroon;
   }
   
