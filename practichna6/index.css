@@ -1,85 +1,85 @@
-#id_a:visited {
-    color: aqua;
-}
-
-#id_b:visited {
-    color: pink;
-}
-
-#id_c:visited {
-    color: orange;
-}
-
-#id_d:visited {
-    color: green;
-}
-
-#id_a:link {
-    color: black;
-}
-
-#id_b:link {
-    color: red;
-}
-
-#id_c:link {
-    color: purple;
-}
-
-#id_d:link {
-    color: yellow;
-}
-
 h1 {
     text-align: center;
-}
-
-.row {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 120%;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 23px;
+  }
+  
+  .link1:link {
+    color: rgb(209, 139, 47);
+  }
+  
+  .link2:link {
+    color: rgb(230, 67, 107);
+  }
+  
+  .link3:link {
+    color: rgb(217, 255, 0);
+  }
+  
+  .link4:link {
+    color: rgb(47, 63, 155);
+  }
+  
+  .link1:visited {
+    color: rgb(26, 24, 24);
+  }
+  
+  .link2:visited {
+    color: rgb(243, 105, 255);
+  }
+  
+  .link3:visited {
+    color: rgb(0, 128, 117);
+  }
+  
+  .link4:visited {
+    color: rgb(47, 112, 90);
+  }
+  
+  .flexcontainer {
     width: 100%;
     display: flex;
     text-align: center;
-
-}
-
-.item {
+  }
+  
+  .item {
     display: block;
-    margin: 12px;
-    border: 2px solid rgb(209, 71, 71);
-    border-radius: 10px;
-    padding: 16px;
-}
-
-a {
-    font-size: 34px;
-    padding: 14px 0;
-}
-
-@media (min-width: 992px) {
+    margin: 15px;
+    border: 2px solid rgb(119, 96, 218);
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  @media (min-width: 992px) {
     .col-lg-4 {
-        width: 25%;
+      width: 25%;
     }
-}
-
-@media (min-width: 768px) and (max-width: 990px) {
-    .row {
-        flex-wrap: wrap;
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .flexcontainer {
+      flex-wrap: wrap;
     }
-
+  
     .col-md-6 {
-        width: 50%;
+      width: 50%;
     }
-
-    .col-md-12 {
-        width: 100%;
+  }
+  
+  @media (max-width: 767px) {
+    .flexcontainer {
+      flex-direction: column;
     }
-}
-
-@media (max-width: 765px) {
-    .row {
-        flex-direction: column;
-    }
-
+  
     .col-sm-12 {
-        width: 100%;
+      width: 100%;
     }
-}
+  }
