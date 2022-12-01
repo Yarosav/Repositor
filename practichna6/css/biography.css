@@ -55,7 +55,7 @@ h1 {
   }
   
   ul li a:focus {
-    color: rgb(12, 10, 10);
+    color: rgb(255, 255, 255);
     background-color: rgb(65, 58, 58);
   }
   
@@ -71,17 +71,17 @@ h1 {
   
   .sd {
     background-color: rgb(65, 58, 58);
-    color: rgb(28, 17, 17);
+    color: rgb(255, 255, 255);
   }
   
   .os {
     background-color: rgb(65, 58, 58);
-    color: rgb(24, 20, 20);
+    color: rgb(255, 255, 255);
   }
   
   .uv {
     background-color: rgb(65, 58, 58);
-    color: rgb(231, 14, 14);
+    color: rgb(255, 255, 255);
   }
   
   .flexcontainer {
