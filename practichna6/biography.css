@@ -1,125 +1,168 @@
-header li {
-    list-style: none;
-}
-
-.try:visited {
-    background-color: gray;
-    border: 2px solid red;
-    color: blue;
-}
-
-.try {
-    cursor: pointer;
-    text-decoration: none;
-    background-color: blue;
-    border: 2px solid yellow;
-    color: white;
-    display: block;
-    width: 200px;
+h1 {
     text-align: center;
-    margin-bottom: 4px;
-}
-
-.try:hover {
+    font-size: 22px;
+  }
+  
+  .bi,
+  .ch,
+  .sd,
+  .os,
+  .uv {
+    font-size: 120%;
+  }
+  
+  #basic_information,
+  #childhood,
+  #schooldays,
+  #out_school,
+  #university {
+    font-size: 144%;
+  }
+  
+  .btm {
+    font-style: italic;
+  }
+  
+  .dz {
+    font-weight: bold;
+  }
+  
+  .tt {
+    text-transform: uppercase;
+  }
+  
+  #Zmist {
+    text-align: center;
+  }
+  
+  ul li a:link {
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    display: block;
+    width: 150px;
+    text-align: center;
+  }
+  
+  ul li a:visited {
+    color: white;
+  }
+  
+  ul li a:hover {
+    color: white;
     background-color: magenta;
+  }
+  
+  ul li a:focus {
     color: black;
-
-}
-
-.try:active {
     background-color: yellow;
-    color: black;
-    border: 2px solid gray;
-}
-
-#idfirst {
+  }
+  
+  .bi {
     background-color: black;
     color: white;
-}
-
-#idsecond {
+  }
+  
+  .ch {
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  .sd {
     background-color: aqua;
     color: black;
-}
-
-#idthird {
-    background-color: gray;
-    color: blue;
-}
-
-#idfourth {
-    background-color: red;
-    color: brown;
-    font-size: 20px;
-}
-
-#idfifth {
-    background-color: pink;
-    color: purple;
-}
-
-
-.row {
+  }
+  
+  .os {
+    background-color: hotpink;
+    color: black;
+  }
+  
+  .uv {
+    background-color: chartreuse;
+    color: maroon;
+  }
+  
+  .flexcontainer {
     width: 100%;
     display: flex;
     text-align: center;
-
-}
-.row div{
-    display: flex;
     align-items: stretch;
-}
-
-.item {
-    margin: 5px;
+  }
+  
+  .item {
+    height: auto;
+    margin: 10px;
     border: 1px solid black;
-    border-radius: 5px;
-    padding: 20px 0;
-}
-
-a {
-    font-size: 34px;
-    padding: 20px 0;
-}
-
-@media (min-width: 992px) {
-    .row{
-        flex-wrap: wrap;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  
+  @media (min-width: 992px) {
+    .flexcontainer {
+      flex-wrap: wrap;
     }
+  
     .col-lg-4 {
-        width: 33.33%;
+      width: 33.33%;
     }
-
-    .col-lg-6 {
-        width: 50%;
+  
+    .list-container {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      height: 75px;
+      width: 320px;
+      flex-wrap: wrap;
+      justify-content: center;
     }
-
-    .col-lg-4, .col-md-6 {
-        width: 10%;
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .flexcontainer {
+      flex-wrap: wrap;
     }
-
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    .row {
-        flex-wrap: wrap;
-    }
-
+  
     .col-md-6 {
-        width: 50%;
+      width: 50%;
     }
-
+  
     .col-md-12 {
-        width: 100%;
+      width: 100%;
     }
-}
-
-@media (max-width: 768px) {
-    .row {
-        flex-direction: column;
+  
+    .list-container {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      height: 75px;
+      width: 400px;
+      flex-wrap: wrap;
+      justify-content: center;
     }
-
+  
+    .list-item {
+      margin-top: 5px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .flexcontainer {
+      flex-direction: column;
+    }
+  
     .col-sm-12 {
-        width: 100%;
+      width: 100%;
     }
-}
+  
+    .list-container {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      width: 400px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }

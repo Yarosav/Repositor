@@ -1,60 +1,97 @@
 h1 {
     text-align: center;
-}
-
-h2 {
+    font-size: 22px;
+  }
+  
+  h2 {
     text-align: center;
-}
-
-td:nth-child(odd) {
-    background-color: black;
-    color: orange;
-}
-
-table {
+  }
+  
+  .btm {
+    font-style: italic;
+  }
+  
+  th {
+    background-color: green;
+    color: yellow;
+    font-weight: bold;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  
+  tr:last-child {
+    text-align: right;
+  }
+  
+  table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  tr:nth-child(even) {
     background-color: gray;
     color: blue;
-    border: 2px solid purple;
-    width: 1000px;
-    margin-left: 40px;
-}
-
-th {
-    border: 2px solid purple;
-    background-color: green;
-    color: blue;
-}
-
-tr th {
-    color: aqua;
-}
-
-td {
-    border: 2px solid purple;
-    padding-left: 40px;
-}
-
-@media (min-width: 992px) {
+  }
+  
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+  
+  th {
+    padding: 5px;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      width: 33.33%;
+    }
+  
+    .col-lg-6 {
+      width: 50%;
+    }
+  
+    th {
+      font-size: 130%;
+    }
+  
     td {
-        font-size: calc(16px + 20%);
+      font-size: 120%;
     }
-    th{
-        font-size: calc(16px + 30%);
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+      width: 50%;
     }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-
+  
+    .col-md-12 {
+      width: 100%;
+    }
+  
+    th {
+      font-size: 120%;
+    }
+  
     td {
-        font-size: calc(16px + 10%);
+      font-size: 110%;
     }
-    th{
-        font-size: calc(16px + 20%);
+  }
+  
+  @media (max-width: 767px) {
+    .col-sm-12 {
+      width: 100%;
     }
-}
-
-@media (max-width: 768px) {
-    th{
-        font-size: calc(16px + 10%);
+  
+    th {
+      font-size: 110%;
     }
-}
+  }
