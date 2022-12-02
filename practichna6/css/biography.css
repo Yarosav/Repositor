@@ -93,10 +93,10 @@ h1 {
   
   .item {
     height: auto;
-    margin: 10px;
+    margin: 20px;
     border: 1px solid rgb(8, 7, 7);
-    border-radius: 15px;
-    padding: 20px;
+    border-radius: 20px;
+    padding: 25px;
   }
   
   
