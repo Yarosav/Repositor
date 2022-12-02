@@ -12,8 +12,8 @@ h1 {
   }
   
   th {
-    background-color: green;
-    color: yellow;
+    background-color: rgb(77, 75, 75);
+    color: rgb(255, 255, 255);
     font-weight: bold;
   }
   
@@ -34,8 +34,8 @@ h1 {
   }
   
   tr:nth-child(even) {
-    background-color: gray;
-    color: blue;
+    background-color: rgb(77, 75, 75);
+    color: rgb(255, 255, 255);
   }
   
   tr:nth-child(odd) {
@@ -43,28 +43,28 @@ h1 {
   }
   
   th {
-    padding: 5px;
-  }
-  
-  td {
     padding: 10px;
   }
   
-  @media (min-width: 992px) {
+  td {
+    padding: 20px;
+  }
+  
+  @media (min-width: 998px) {
     .col-lg-4 {
-      width: 33.33%;
+      width: 40%;
     }
   
     .col-lg-6 {
-      width: 50%;
+      width: 60%;
     }
   
     th {
-      font-size: 130%;
+      font-size: 110%;
     }
   
     td {
-      font-size: 120%;
+      font-size: 100%;
     }
   }
   
@@ -78,11 +78,11 @@ h1 {
     }
   
     th {
-      font-size: 120%;
+      font-size: 100%;
     }
   
     td {
-      font-size: 110%;
+      font-size: 100%;
     }
   }
   
@@ -92,6 +92,6 @@ h1 {
     }
   
     th {
-      font-size: 110%;
+      font-size: 100%;
     }
   }
