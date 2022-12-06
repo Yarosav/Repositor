@@ -1,6 +1,6 @@
 .Lorem_Block{
     display: flex;
-    background-color: gray;
+    background-color: slategray;
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
@@ -31,13 +31,13 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column-reverse;
-    background-color: silver;
+    background-color: sienna;
     font-family: Lato, sans-serif;
 }
 .Lorem_Block h3{
-    border: 2px solid yellow;
-    width: 55px;
-    color: yellow;
+    border: 1.5px solid whitesmoke;
+    width: 45px;
+    color: whitesmoke;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 0px;
@@ -46,30 +46,30 @@
 
 
 .Shoppinglist_Block h3{
-    border: 2px solid blue;
+    border: 2px solid whitesmoke;
     border-radius: 5px;
     width:85px ;
     padding: 5px;
     margin-bottom: 0px;
-    color: blue;
+    color: whitesmoke;
     font-size: 120%;
 }
 .Table_Block h3{
-    border: 2px solid black;
+    border: 2px solid whitesmoke;
     border-radius: 5px;
     width:95px ;
     padding: 5px;
     margin-bottom: 0px;
-    color: black;
+    color: whitesmoke;
     font-size: 120%;
 }
 .Picture_Block h3{
-    border: 2px solid red;
+    border: 2px solid whitesmoke;
     border-radius: 5px;
     width:140px ;
     padding: 5px;
     margin-bottom: 0px;
-    color: red;
+    color: whitesmoke;
     font-size: 120%;
 }
 .Zagolovok{
