@@ -35,11 +35,11 @@
     font-family: Lato, sans-serif;
 }
 .Lorem_Block h3{
-    border: 1.5px solid whitesmoke;
+    border: 2px solid whitesmoke;
     width: 45px;
     color: whitesmoke;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 0px;
     font-size: 120%;
 }
