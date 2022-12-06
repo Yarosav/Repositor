@@ -1,8 +1,8 @@
-#bl1 {
+#N1 {
     background-color: aquamarine;
     color: #0400ff;
 }
-#bl2 {
+#N2 {
     background-color: #00ffee;
     color: #820085;
 }
@@ -15,28 +15,28 @@
     color: #001999;
 }
 
-#g1 {
+#M1 {
     border: 2px solid black;
     background-color: darkslategrey;
     color: #ffffff;
     font-size: 120%;
     font-family: 'EB Garamond', serif;
 }
-#g2 {
+#M2 {
     border: 2px solid black;
     background-color: #0400ff;
     color: #eeff00;
     font-size: 120%;
     font-family: 'EB Garamond', serif;
 }
-#g3 {
+#M3 {
     border: 2px solid black;
     background-color: #d4ff00;
     color: #801414;
     font-size: 120%;
     font-family: 'EB Garamond', serif;
 }
-#g4 {
+#M4 {
     border: 2px solid black;
     background-color: maroon;
     color: #80ff00;
