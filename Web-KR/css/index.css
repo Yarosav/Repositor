@@ -1,4 +1,4 @@
-.Lorem {
+.Lorem_Block {
     display: flex;
     background-color: slategray;
     align-content: stretch;
@@ -25,7 +25,7 @@
     background-color: slategray;
     font-family: Lato, sans-serif;
   }
-  .Picture_Block{
+  .Picture {
     display: flex;
     align-content: stretch;
     justify-content: flex-start;
@@ -45,7 +45,7 @@
   }
   
   
-  .Shoppinglist_Block h3{
+  .Shoppinglist h3{
     border: 2px solid whitesmoke;
     border-radius: 5px;
     width: 80px ;
