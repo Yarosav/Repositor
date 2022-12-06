@@ -11,7 +11,7 @@ h3{
 }
 #id_3 {
     background-color: rgb(53, 53, 53);
-    color: Teal;
+    color: rgb(174, 177, 197);
 }
 #id_4 {
     background-color: rgb(114, 114, 114);
@@ -20,29 +20,29 @@ h3{
 
 #Lorem_Block {
     border: 1px solid white;
-    background-color: rgb(69, 118, 182);
-    color: rgb(221, 0, 255);
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
 #Shoppinglist_Block {
     border: 1px solid white;
     background-color: #8c8c8c;
-    color: rgb(221, 0, 255);
+    color: rgb(226, 224, 227);
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
 #Table_Block {
     border: 1px solid white;
     background-color: #8c8c8c;
-    color: rgb(221, 0, 255);
+    color: rgb(255, 255, 255);
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
 #Picture_Block {
     border: 1px solid white;
     background-color: #8c8c8c;
-    color: rgb(221, 0, 255);
+    color: rgb(255, 255, 255);
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
