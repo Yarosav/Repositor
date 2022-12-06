@@ -1,94 +1,79 @@
-.Lorem_Block{
+.block1{
+    background-color: bisque;
+    width: 400px;
     display: flex;
-    background-color: blue;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: flex-start;
     flex-direction: column-reverse;
-    font-family: Lato, sans-serif;
-}
-.Shoppinglist_Block{
-    display: flex;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column-reverse;
-    background-color: yellow;
-    font-family: Lato, sans-serif;
-}
-.Table_Block{
-    display: flex;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column-reverse;
-    background-color: red;
-    font-family: Lato, sans-serif;
-}
-.Picture_Block{
-    display: flex;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column-reverse;
-    background-color: black;
-    font-family: Lato, sans-serif;
-}
-.Lorem_Block h3{
-    border: 2px solid yellow;
-    width: 55px;
-    color: yellow;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 0px;
-    font-size: 120%;
+    
 }
 
+.block2{
+    background-color: burlywood;
+    width: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    ;
+}
 
-.Shoppinglist_Block h3{
-    border: 2px solid blue;
-    border-radius: 5px;
-    width:85px ;
-    padding: 5px;
-    margin-bottom: 0px;
-    color: blue;
-    font-size: 120%;
+.block3{
+    background-color: indianred;
+    width: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    
 }
-.Table_Block h3{
-    border: 2px solid black;
-    border-radius: 5px;
-    width:95px ;
-    padding: 5px;
-    margin-bottom: 0px;
-    color: black;
-    font-size: 120%;
-}
-.Picture_Block h3{
-    border: 2px solid red;
-    border-radius: 5px;
-    width:140px ;
-    padding: 5px;
-    margin-bottom: 0px;
-    color: red;
-    font-size: 120%;
-}
-.Zagolovok{
 
-    font-family: Roboto, sans-serif;
+.block4{
+    background-color: darkkhaki;
+    width: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    
 }
-#id_1{
-    font-size: 140%;
-    font-family: Kenia, sans-serif;
+
+h4{
+    background-color: greenyellow;
+    color:black;
+    font-size: 1.2em;
+    width: 150px;
+    font-family: Roboto Slab;
 }
-#id_2{
-    font-size: 140%;
-    font-family: Kenia, sans-serif;
+
+header{
+    font-family: Roboto;
 }
-#id_3{
-    font-size: 140%;
-    font-family: Kenia, sans-serif;
+
+.text{
+    font-family: Bitter;
 }
-#id_4{
-    font-size: 140%;
-    font-family: Kenia, sans-serif;
+
+@media (min-width: 1200px) {
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199){
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991){
+
+    .col-md-sm-6 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767){
+    .col-sm-12{
+        width: 100%;
+    }
 }
