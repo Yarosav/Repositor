@@ -1,0 +1,92 @@
+#bl1 {
+    background-color: aquamarine;
+    color: #0400ff;
+}
+#bl2 {
+    background-color: #00ffee;
+    color: #820085;
+}
+#bl3 {
+    background-color: #1b4aa1;
+    color: #a8ffd7;
+}
+#bl4 {
+    background-color: #ffc800;
+    color: #001999;
+}
+
+#g1 {
+    border: 2px solid black;
+    background-color: darkslategrey;
+    color: #ffffff;
+    font-size: 120%;
+    font-family: 'EB Garamond', serif;
+}
+#g2 {
+    border: 2px solid black;
+    background-color: #0400ff;
+    color: #eeff00;
+    font-size: 120%;
+    font-family: 'EB Garamond', serif;
+}
+#g3 {
+    border: 2px solid black;
+    background-color: #d4ff00;
+    color: #801414;
+    font-size: 120%;
+    font-family: 'EB Garamond', serif;
+}
+#g4 {
+    border: 2px solid black;
+    background-color: maroon;
+    color: #80ff00;
+    font-size: 120%;
+    font-family: 'EB Garamond', serif;
+}
+
+.main {
+    position: relative;
+    float: right;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s1 {
+    font-family: 'Caveat', cursive;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+@media (min-width: 1200px) {
+    .col-vlg-3 {
+        width: 25%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) { 
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767.99px) {
+    .main{
+        flex-direction: column;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+}
