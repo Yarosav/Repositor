@@ -2,7 +2,7 @@ h3{
     text-align: center
 }
 #id_1 {
-    background-color: Plum;
+    background-color: rgb(46, 171, 96);
     color: RosyBrown;
 }
 #id_2 {
@@ -20,7 +20,7 @@ h3{
 
 #Lorem_Block {
     border: 1px solid white;
-    background-color: Plum;
+    background-color: rgb(69, 118, 182);
     color: Teal;
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
