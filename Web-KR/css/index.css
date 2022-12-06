@@ -1,42 +1,42 @@
-#N1 {
+#bl1 {
     background-color: aquamarine;
     color: #0400ff;
 }
-#N2 {
+#bl2 {
     background-color: #00ffee;
     color: #820085;
 }
-#N3 {
+#bl3 {
     background-color: #1b4aa1;
     color: #a8ffd7;
 }
-#N4 {
+#bl4 {
     background-color: #ffc800;
     color: #001999;
 }
 
-#M1 {
+#g1 {
     border: 2px solid black;
     background-color: darkslategrey;
     color: #ffffff;
     font-size: 120%;
     font-family: 'EB Garamond', serif;
 }
-#M2 {
+#g2 {
     border: 2px solid black;
     background-color: #0400ff;
     color: #eeff00;
     font-size: 120%;
     font-family: 'EB Garamond', serif;
 }
-#M3 {
+#g3 {
     border: 2px solid black;
     background-color: #d4ff00;
     color: #801414;
     font-size: 120%;
     font-family: 'EB Garamond', serif;
 }
-#M4 {
+#g4 {
     border: 2px solid black;
     background-color: maroon;
     color: #80ff00;
