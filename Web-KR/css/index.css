@@ -2,47 +2,47 @@ h3{
     text-align: center
 }
 #id_1 {
-    background-color: rgb(46, 171, 96);
+    background-color: rgb(62, 104, 167);
     color: RosyBrown;
 }
 #id_2 {
-    background-color: Gray;
+    background-color: rgb(4, 62, 255);
     color: Brown;
 }
 #id_3 {
-    background-color: Silver;
+    background-color: rgb(62, 104, 167);
     color: Teal;
 }
 #id_4 {
-    background-color: Silver;
+    background-color: rgb(4, 62, 255);
     color: Maroon;
 }
 
 #Lorem_Block {
     border: 1px solid white;
     background-color: rgb(69, 118, 182);
-    color: Teal;
+    color: rgb(221, 0, 255)l;
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
 #Shoppinglist_Block {
     border: 1px solid white;
-    background-color: #0400ff;
-    color: #eeff00;
+    background-color: #8c8c8c;
+    color: rgb(221, 0, 255);
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
 #Table_Block {
     border: 1px solid white;
-    background-color: coral;
-    color: royalblue;
+    background-color: #8c8c8c;
+    color: (221, 0, 255);
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
 #Picture_Block {
     border: 1px solid white;
-    background-color: forestgreen;
-    color: darkorange;
+    background-color: #8c8c8c;
+    color: rgb(221, 0, 255);
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
@@ -60,7 +60,7 @@ h3{
 }
 
 table, th, td {
-    border: 3px solid Tan;
+    border: 3px solid rgb(0, 0, 0);
     border-collapse: collapse;
     padding: 10px;
 }
