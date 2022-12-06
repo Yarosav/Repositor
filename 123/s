@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Roboto+Slab&family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <header>
+    <h1>Контрольна робота</h1>
+    <h2>Боднара Ярослава Миколайовича</h2>
+    <h3>Варіант 2</h3>
+</header>
+
+<div class="col-lg-3 col-md-4 col-md-sm-6 col-sm-12">
+  <div class="block1">
+      <h4>Текст</h4>
+      <div class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Porro quae, atque veritatis totam obcaecati commodi voluptate voluptates laborum illum tenetur molestias hic rem et doloribus ullam pariatur!
+         Voluptate, illum temporibus!
+      </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-4 col-md-sm-6 col-sm-12">
+  <div class="block2 ">
+      <h4>Список</h4>
+      <div class="text">
+        <ul>
+          <li>Чай</li>
+        </ul>
+           <ol>Овочі:
+              <li>Капуста</li>
+              <li>Морква</li>
+              <li>Буряк</li>
+           </ol>
+        <ul>
+          <li>Сир</li>
+          <li>Сметана</li>
+          <li>Кетчуп</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-4 col-md-sm-6 col-sm-12">
+  <div class="block3 ">
+      <h4>Таблиця</h4>
+          <table>
+            <tr>
+              <th>Місто</th>
+              <th>Населення</th>
+            </tr>
+      
+            <tr>
+              <td>Дублін</td>
+              <td>1,1 млн. ос.</td>
+            </tr>
+      
+            <tr>
+              <td>Ер-Ріяд</td>
+              <td>7,6 млн. ос. </td>
+            </tr>
+      
+            <tr>
+              <td>Мюнхен</td>
+              <td>1,4 млн. ос.</td>
+            </tr>
+      
+            <tr>
+              <td>Детройт</td>
+              <td>0,6 млн. ос.</td>
+            </tr>
+          </table>
+  </div>
+</div>
