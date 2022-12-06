@@ -35,7 +35,7 @@ h3{
 #Table_Block {
     border: 1px solid white;
     background-color: #8c8c8c;
-    color: (221, 0, 255);
+    color: rgb(221, 0, 255);
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
