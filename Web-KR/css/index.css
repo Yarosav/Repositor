@@ -1,79 +1,94 @@
-.block1{
-    background-color: bisque;
-    width: 400px;
+.Lorem_Block{
     display: flex;
+    background-color: gray;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column-reverse;
-    
+    font-family: Lato, sans-serif;
 }
-
-.block2{
-    background-color: burlywood;
-    width: 400px;
+.Shoppinglist_Block{
     display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column-reverse;
-    ;
+    background-color: sienna;
+    font-family: Lato, sans-serif;
 }
-
-.block3{
-    background-color: indianred;
-    width: 400px;
+.Table_Block{
     display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column-reverse;
-    
+    background-color: slategray;
+    font-family: Lato, sans-serif;
 }
-
-.block4{
-    background-color: darkkhaki;
-    width: 400px;
+.Picture_Block{
     display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column-reverse;
-    
+    background-color: silver;
+    font-family: Lato, sans-serif;
+}
+.Lorem_Block h3{
+    border: 2px solid yellow;
+    width: 55px;
+    color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    font-size: 120%;
 }
 
-h4{
-    background-color: greenyellow;
-    color:black;
-    font-size: 1.2em;
-    width: 150px;
-    font-family: Roboto Slab;
+
+.Shoppinglist_Block h3{
+    border: 2px solid blue;
+    border-radius: 5px;
+    width:85px ;
+    padding: 5px;
+    margin-bottom: 0px;
+    color: blue;
+    font-size: 120%;
 }
-
-header{
-    font-family: Roboto;
+.Table_Block h3{
+    border: 2px solid black;
+    border-radius: 5px;
+    width:95px ;
+    padding: 5px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 120%;
 }
-
-.text{
-    font-family: Bitter;
+.Picture_Block h3{
+    border: 2px solid red;
+    border-radius: 5px;
+    width:140px ;
+    padding: 5px;
+    margin-bottom: 0px;
+    color: red;
+    font-size: 120%;
 }
+.Zagolovok{
 
-@media (min-width: 1200px) {
-
-    .col-lg-3 {
-        width: 25%;
-    }
-
+    font-family: Roboto, sans-serif;
 }
-
-@media (min-width: 992px) and (max-width: 1199){
-
-    .col-md-4 {
-        width: 33.33%;
-    }
-
-    .col-md-12 {
-        width: 100%;
-    }
+#id_1{
+    font-size: 140%;
+    font-family: Kenia, sans-serif;
 }
-
-@media (min-width: 768px) and (max-width: 991){
-
-    .col-md-sm-6 {
-        width: 50%;
-    }
+#id_2{
+    font-size: 140%;
+    font-family: Kenia, sans-serif;
 }
-
-@media (max-width: 767){
-    .col-sm-12{
-        width: 100%;
-    }
+#id_3{
+    font-size: 140%;
+    font-family: Kenia, sans-serif;
+}
+#id_4{
+    font-size: 140%;
+    font-family: Kenia, sans-serif;
 }
