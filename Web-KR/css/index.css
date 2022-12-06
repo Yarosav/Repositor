@@ -1,148 +1,94 @@
-.Lorem_Block {
-    border: 1px solid black;
-    border-radius: 3px;
+.Lorem {
     display: flex;
-    background-color: mediumpurple;
+    background-color: slategray;
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column-reverse;
-}
-.Shoppinglist {
-    border: 1px solid black;
-    border-radius: 3px;
+    font-family: Lato, sans-serif;
+  }
+  .Shoppinglist {
     display: flex;
-    background-color: olivedrab;
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column-reverse;
-}
-.Table{
-    border: 1px solid black;
-    border-radius: 3px;
+    background-color: sienna;
+    font-family: Lato, sans-serif;
+  }
+  .Table {
     display: flex;
-    background-color: yellow;
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column-reverse;
-}
-.Picture{
-    border: 1px solid black;
-    border-radius: 3px;
+    background-color: slategray;
+    font-family: Lato, sans-serif;
+  }
+  .Picture_Block{
     display: flex;
-    background-color: darkblue;
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column-reverse;
-}
-.Lorem_Block h3{
-    border: 2px solid black;
-    width: 65px;
-    color: black;
+    background-color: sienna;
+    font-family: Lato, sans-serif;
+  }
+  .Lorem_Block h3{
+    border: 2px solid whitesmoke;
+    width: 55px;
+    color: whitesmoke;
     padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    font-size: 120%;
+  }
+  
+  
+  .Shoppinglist_Block h3{
+    border: 2px solid whitesmoke;
     border-radius: 5px;
-    margin-bottom: 0;
-}
-.Shoppinglist h3{
-    border: 2px solid black;
-    width: 85px;
-    color: black;
+    width: 80px ;
     padding: 10px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    font-size: 120%;
+  }
+  .Table h3{
+    border: 2px solid whitesmoke;
     border-radius: 5px;
-    margin-bottom: 0;
-}
-.Table h3{
-    border: 2px solid black;
-    width: 90px;
-    color: black;
+    width:95px ;
     padding: 10px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    font-size: 120%;
+  }
+  .Picture h3{
+    border: 2px solid whitesmoke;
     border-radius: 5px;
-    margin-bottom: 0;
-}
-.Picture h3{
-    border: 2px solid black;
-    width: 120px;
-    color: black;
+    width:140px ;
     padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 0;
-}
-#id_1{
-    background-color: yellow;
-    margin-left: 1365px;
+    margin-bottom: 0px;
+    color: whitesmoke;
     font-size: 120%;
-    font-style: initial;
-}
-#id_2{
-    background-color: mediumpurple;
-    margin-left: 1345px;
-    font-size: 120%;
-    font-style: initial;
-}
-#id_3{
-    background-color: red;
-    margin-left: 1340px;
-    font-size: 120%;
-    font-style: initial;
-}
-#id_4{
-    background-color: yellow;
-    margin-left: 1311px;
-    font-size: 120%;
-    font-style: initial;
-}
-h1 {
-    text-align: center;
-}
-
-td:nth-child(odd) {
-    background-color: white;
-    color: rgb(14, 6, 6);
-}
-
-table {
-    background-color: rgb(248, 248, 248);
-    color: #0a0a10;
-    border: 2px solid #180b18;
-    width: 1px;
-    margin-left: 0;
-}
-th {
-    border: 1px solid #ffffff;
-    background-color: white;
-    color: white;
-}
-
-tr th {
-    color: #020303;
-}
-
-td {
-    border: 2px solid #000000;
-    padding-left: 1px;
-}
-.Kontrolniy_zaholovok{
-    font-style: italic;
-}
-@media (min-width: 992px) {
-    .col-lg-6 {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    .col-md-12 {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    .col-sm-12 {
-        width: 100%;
-    }
-}
+  }
+  .Table{
+  
+    font-family: Roboto, sans-serif;
+  }
+  #id_1{
+    font-size: 140%;
+    font-family: Kenia, sans-serif;
+  }
+  #id_2{
+    font-size: 140%;
+    font-family: Kenia, sans-serif;
+  }
+  #id_3{
+    font-size: 140%;
+    font-family: Kenia, sans-serif;
+  }
+  #id_4{
+    font-size: 140%;
+    font-family: Kenia, sans-serif;
+  }
