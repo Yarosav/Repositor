@@ -1,0 +1,95 @@
+h3{
+    text-align: center
+}
+#id_1 {
+    background-color: blue;
+    color: yellow;
+}
+#id_2 {
+    background-color: yellow;
+    color: blue;
+}
+#id_3 {
+    background-color: red;
+    color: black;
+}
+#id_4 {
+    background-color: black;
+    color: red;
+}
+
+#Lorem_Block {
+    border: 1px solid white;
+    background-color: yellow;
+    color: blue;
+    font-size: 120%;
+    font-family: 'EB Garamond', sans-serif;
+}
+#Shoppinglist_Block {
+    border: 1px solid white;
+    background-color: #0400ff;
+    color: #eeff00;
+    font-size: 120%;
+    font-family: 'EB Garamond', sans-serif;
+}
+#Table_Block {
+    border: 1px solid white;
+    background-color: black;
+    color: red;
+    font-size: 120%;
+    font-family: 'EB Garamond', sans-serif;
+}
+#Picture_Block {
+    border: 1px solid white;
+    background-color: red;
+    color: black;
+    font-size: 120%;
+    font-family: 'EB Garamond', sans-serif;
+}
+
+.Main_Block {
+    position: relative;
+    float: right;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Zagolovok {
+    font-family: 'Zen Dots', cursive;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+@media (min-width: 1200px) {
+    .col-vlg-3 {
+        width: 25%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) { 
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767.99px) {
+    .main{
+        flex-direction: column;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+}
