@@ -14,14 +14,14 @@ h3{
     color: Teal;
 }
 #id_4 {
-    background-color: black;
-    color: red;
+    background-color: Silver;
+    color: Maroon;
 }
 
 #Lorem_Block {
     border: 1px solid white;
-    background-color: yellow;
-    color: blue;
+    background-color: Plum;
+    color: Teal;
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
@@ -34,15 +34,15 @@ h3{
 }
 #Table_Block {
     border: 1px solid white;
-    background-color: black;
-    color: red;
+    background-color: coral;
+    color: royalblue;
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
 #Picture_Block {
     border: 1px solid white;
-    background-color: red;
-    color: black;
+    background-color: forestgreen;
+    color: darkorange;
     font-size: 120%;
     font-family: 'EB Garamond', sans-serif;
 }
@@ -60,7 +60,7 @@ h3{
 }
 
 table, th, td {
-    border: 3px solid black;
+    border: 3px solid Tan;
     border-collapse: collapse;
     padding: 10px;
 }
