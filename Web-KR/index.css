@@ -30,14 +30,14 @@
     font-family: 'EB Garamond', serif;
 }
 #g3 {
-    border: 2px solid black;
+    border: 5px solid black;
     background-color: #d4ff00;
     color: #801414;
     font-size: 120%;
     font-family: 'EB Garamond', serif;
 }
 #g4 {
-    border: 2px solid black;
+    border: 5px solid black;
     background-color: maroon;
     color: #80ff00;
     font-size: 120%;
@@ -57,19 +57,19 @@
 }
 
 table, th, td {
-    border: 2px solid black;
+    border: 5px solid black;
     border-collapse: collapse;
-    padding: 10px;
+    padding: 20px;
 }
 @media (min-width: 1200px) {
     .col-vlg-3 {
-        width: 25%;
+        width: 30%;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
     .col-lg-4 {
-        width: 33.33%;
+        width: 40%;
     }
     .col-lg-12 {
         width: 100%;
