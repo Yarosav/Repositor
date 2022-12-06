@@ -2,16 +2,16 @@ h3{
     text-align: center
 }
 #id_1 {
-    background-color: blue;
-    color: yellow;
+    background-color: Plum;
+    color: RosyBrown;
 }
 #id_2 {
-    background-color: yellow;
-    color: blue;
+    background-color: Gray;
+    color: Brown;
 }
 #id_3 {
-    background-color: red;
-    color: black;
+    background-color: Silver;
+    color: Teal;
 }
 #id_4 {
     background-color: black;
